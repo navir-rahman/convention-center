@@ -43,6 +43,7 @@ ul{
 .card{
     max-width: 300px;
     transition: all 0.3s ease;
+    margin: 10px;
 }
 .card:hover{
     background-color: #3F87F5;
@@ -64,10 +65,10 @@ color: var(--black2);
 .card:hover .card-title{
     color: var(--white);
     }
-    .card:hover .card-subtitle{
+.card:hover .card-subtitle{
         color: var(--white);
         }
-        .card:hover .card-text{
+.card:hover .card-text{
             color: var(--white);
             }
 
@@ -79,7 +80,7 @@ color: var(--black2);
     font-weight: bold;
     text-align: center;
     font-weight: bold;
-    align-self: flex-end;
+    margin: 5px;
 }
 .pricebtn:hover{
     background-color: var(--white);

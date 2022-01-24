@@ -7,9 +7,11 @@ font-family: 'Poppins', sans-serif;
 :root{
     --black1:#3E3E3E;
     --black2:#231D4F;
+    --black3:#0B0D17;
     --gray1:#848199;
     --white:#fff;
     --pink1:#FEF5FA;
+    -gray300:Gray 300;
 
 
 }
@@ -86,4 +88,13 @@ color: var(--black2);
 
 .list_item{
     text-decoration: none;
+}
+
+/* footer */
+footer{
+    background-color: var(--black3);
+    color: var(--gray1);
+    padding-top: 54px;
+    padding-bottom: 84px;
+    margin-top: 150px;
 }

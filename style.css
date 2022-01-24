@@ -1,0 +1,89 @@
+*{
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif; */
+font-family: 'Poppins', sans-serif;
+}
+/* common style  */
+:root{
+    --black1:#3E3E3E;
+    --black2:#231D4F;
+    --gray1:#848199;
+    --white:#fff;
+    --pink1:#FEF5FA;
+
+
+}
+body{
+    background-color: var(--white);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.mx_100{
+    margin-top: 100px;
+    margin-bottom:100px ;
+}
+.badge{
+    z-index: 10;
+}
+
+/* header style  */
+.navbar-brand{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;   
+    color: var(--black1);
+}
+
+/* pricing section  */
+.card{
+    max-width: 300px;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    background-color: #3F87F5;
+    color: var(--white);
+    transform: translatey(-20px);
+    box-shadow: 0 1rem 3rem rgba(63, 135, 245, 0.25);
+    z-index: 11;
+
+}
+.pricecontainer .col{
+    height: 100%;
+}
+.card-title, .card-subtitle{
+color: var(--black2);
+}
+.card-text{
+    color: var(--gray1);
+}
+.card:hover .card-title{
+    color: var(--white);
+    }
+    .card:hover .card-subtitle{
+        color: var(--white);
+        }
+        .card:hover .card-text{
+            color: var(--white);
+            }
+
+.pricebtn{
+    background-color: var(--pink1);
+    width: 207px;
+    height: 45px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+    align-self: flex-end;
+}
+.pricebtn:hover{
+    background-color: var(--white);
+    
+}
+
+.list_item{
+    text-decoration: none;
+}

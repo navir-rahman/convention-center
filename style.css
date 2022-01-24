@@ -44,6 +44,7 @@ ul{
     max-width: 300px;
     transition: all 0.3s ease;
     margin: 10px;
+    min-height: 480px;
 }
 .card:hover{
     background-color: #3F87F5;
